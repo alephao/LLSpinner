@@ -11,16 +11,16 @@ import UIKit
 open class LLSpinner {
     fileprivate static var spinnerView: UIActivityIndicatorView?
     
-    internal static var spinnerStyle: UIActivityIndicatorViewStyle = .white
+    internal static var style: UIActivityIndicatorViewStyle = .white
     internal static var backgroundColor: UIColor = UIColor(white: 0, alpha: 0.6)
     
-    static func spin(spinnerStyle: UIActivityIndicatorViewStyle = spinnerStyle, backgroundColor: UIColor = backgroundColor) {
+    static func spin(style: UIActivityIndicatorViewStyle = style, backgroundColor: UIColor = backgroundColor) {
         if spinnerView == nil,
             let window = UIApplication.shared.keyWindow {
             let frame = UIScreen.main.bounds
             spinnerView = UIActivityIndicatorView(frame: frame)
             spinnerView!.backgroundColor = backgroundColor
-            spinnerView!.activityIndicatorViewStyle = spinnerStyle
+            spinnerView!.activityIndicatorViewStyle = style
             window.addSubview(spinnerView!)
             spinnerView!.startAnimating()
         }
