@@ -1,7 +1,11 @@
 LLSpinner
 ===========
 
-Simple and easy to use full screen activity indicator written in Swift
+[![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Platforms iOS](https://img.shields.io/badge/Platforms-iOS-lightgray.svg?style=flat)](https://developer.apple.com/swift/)
+[![Xcode 8.0+](https://img.shields.io/badge/Xcode-8.0+-blue.svg?style=flat)](https://developer.apple.com/swift/)
+
+An easy way to handle full screen activity indicator.
 
 ![llspinner](https://cloud.githubusercontent.com/assets/7674479/18743621/3a5047f4-80fd-11e6-9701-e389caacab05.gif)
 
