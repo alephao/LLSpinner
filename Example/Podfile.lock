@@ -1,0 +1,16 @@
+PODS:
+  - LLSpinner (0.0.1)
+
+DEPENDENCIES:
+  - LLSpinner (from `../`)
+
+EXTERNAL SOURCES:
+  LLSpinner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LLSpinner: 0ed607d59b3a447ddd157c29ef684de7a5a285ad
+
+PODFILE CHECKSUM: af84e5aa50d48c8ff2f29cbc472a0c1d8844cf5b
+
+COCOAPODS: 1.1.0.rc.2

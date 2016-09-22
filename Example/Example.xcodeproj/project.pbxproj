@@ -7,38 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86087D5C1D93D8D800E6AE40 /* LLSpinner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86087D591D93D8C900E6AE40 /* LLSpinner.framework */; };
-		86087D5D1D93D8D800E6AE40 /* LLSpinner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86087D591D93D8C900E6AE40 /* LLSpinner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		63261AA34ACBBAED00CFA446 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE2DF1AE3E438F364DF44F7 /* Pods_Example.framework */; };
 		867742F71D93D11D00680C55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867742F61D93D11D00680C55 /* AppDelegate.swift */; };
 		867742F91D93D11D00680C55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867742F81D93D11D00680C55 /* ViewController.swift */; };
 		867742FC1D93D11D00680C55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867742FA1D93D11D00680C55 /* Main.storyboard */; };
 		867742FE1D93D11D00680C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867742FD1D93D11D00680C55 /* Assets.xcassets */; };
 		867743011D93D11D00680C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867742FF1D93D11D00680C55 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		86087D581D93D8C900E6AE40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 86087D531D93D8C900E6AE40 /* LLSpinner.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8644541F1D93BBD8009F5A3F;
-			remoteInfo = LLSpinner;
-		};
-		86087D5A1D93D8C900E6AE40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 86087D531D93D8C900E6AE40 /* LLSpinner.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 864454281D93BBD8009F5A3F;
-			remoteInfo = LLSpinnerTests;
-		};
-		86087D5E1D93D8D800E6AE40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 86087D531D93D8C900E6AE40 /* LLSpinner.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8644541E1D93BBD8009F5A3F;
-			remoteInfo = LLSpinner;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		86087D601D93D8D800E6AE40 /* Embed Frameworks */ = {
@@ -47,7 +22,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				86087D5D1D93D8D800E6AE40 /* LLSpinner.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,7 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		86087D531D93D8C900E6AE40 /* LLSpinner.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LLSpinner.xcodeproj; path = ../LLSpinner.xcodeproj; sourceTree = "<group>"; };
+		7BE2DF1AE3E438F364DF44F7 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		867742F31D93D11D00680C55 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		867742F61D93D11D00680C55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		867742F81D93D11D00680C55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +37,8 @@
 		867742FD1D93D11D00680C55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		867743001D93D11D00680C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		867743021D93D11D00680C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97EA5B8A511A83628202F890 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9BF84E1D77080F80A048DF04 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,20 +46,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86087D5C1D93D8D800E6AE40 /* LLSpinner.framework in Frameworks */,
+				63261AA34ACBBAED00CFA446 /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		86087D541D93D8C900E6AE40 /* Products */ = {
+		31D93968738B616A5E35D852 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				86087D591D93D8C900E6AE40 /* LLSpinner.framework */,
-				86087D5B1D93D8C900E6AE40 /* LLSpinnerTests.xctest */,
+				97EA5B8A511A83628202F890 /* Pods-Example.debug.xcconfig */,
+				9BF84E1D77080F80A048DF04 /* Pods-Example.release.xcconfig */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		867742EA1D93D11D00680C55 = {
@@ -91,7 +67,8 @@
 			children = (
 				867742F51D93D11D00680C55 /* Example */,
 				867742F41D93D11D00680C55 /* Products */,
-				86087D531D93D8C900E6AE40 /* LLSpinner.xcodeproj */,
+				31D93968738B616A5E35D852 /* Pods */,
+				C4CDB66B5FB0B1953F619C97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +93,14 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
+		C4CDB66B5FB0B1953F619C97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BE2DF1AE3E438F364DF44F7 /* Pods_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,15 +108,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 867743051D93D11D00680C55 /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
+				4F0E2278E2050EA5D4CAF9C4 /* [CP] Check Pods Manifest.lock */,
 				867742EF1D93D11D00680C55 /* Sources */,
 				867742F01D93D11D00680C55 /* Frameworks */,
 				867742F11D93D11D00680C55 /* Resources */,
 				86087D601D93D8D800E6AE40 /* Embed Frameworks */,
+				C6DE9F29A347CE22D12AB590 /* [CP] Embed Pods Frameworks */,
+				1F7F9B90E07F593C861A028E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				86087D5F1D93D8D800E6AE40 /* PBXTargetDependency */,
 			);
 			name = Example;
 			productName = Example;
@@ -150,6 +137,7 @@
 				TargetAttributes = {
 					867742F21D93D11D00680C55 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RWJVRQ865N;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -165,35 +153,12 @@
 			mainGroup = 867742EA1D93D11D00680C55;
 			productRefGroup = 867742F41D93D11D00680C55 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 86087D541D93D8C900E6AE40 /* Products */;
-					ProjectRef = 86087D531D93D8C900E6AE40 /* LLSpinner.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				867742F21D93D11D00680C55 /* Example */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		86087D591D93D8C900E6AE40 /* LLSpinner.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = LLSpinner.framework;
-			remoteRef = 86087D581D93D8C900E6AE40 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		86087D5B1D93D8C900E6AE40 /* LLSpinnerTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = LLSpinnerTests.xctest;
-			remoteRef = 86087D5A1D93D8C900E6AE40 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		867742F11D93D11D00680C55 /* Resources */ = {
@@ -208,6 +173,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F7F9B90E07F593C861A028E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F0E2278E2050EA5D4CAF9C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6DE9F29A347CE22D12AB590 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		867742EF1D93D11D00680C55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -219,14 +232,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		86087D5F1D93D8D800E6AE40 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LLSpinner;
-			targetProxy = 86087D5E1D93D8D800E6AE40 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		867742FA1D93D11D00680C55 /* Main.storyboard */ = {
@@ -266,6 +271,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -315,6 +321,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -341,9 +348,11 @@
 		};
 		867743061D93D11D00680C55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97EA5B8A511A83628202F890 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RWJVRQ865N;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lalafon.Example;
@@ -354,9 +363,11 @@
 		};
 		867743071D93D11D00680C55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF84E1D77080F80A048DF04 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RWJVRQ865N;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lalafon.Example;
