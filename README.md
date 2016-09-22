@@ -1,7 +1,7 @@
 LLSpinner
 ===========
 
-Simple and easy to use activity indicator written in Swift
+Simple and easy to use full screen activity indicator written in Swift
 
 Easy to use
 ----
