@@ -9,12 +9,14 @@
 import UIKit
 
 open class LLSpinner {
-    fileprivate static var spinnerView: UIActivityIndicatorView?
+    internal static var spinnerView: UIActivityIndicatorView?
     
-    internal static var style: UIActivityIndicatorViewStyle = .white
-    internal static var backgroundColor: UIColor = UIColor(white: 0, alpha: 0.6)
+    open static var style: UIActivityIndicatorViewStyle = .white
+    open static var backgroundColor: UIColor = UIColor(white: 0, alpha: 0.6)
     
-    static func spin(style: UIActivityIndicatorViewStyle = style, backgroundColor: UIColor = backgroundColor) {
+    internal static var touchHandler: (() -> Void)?
+    
+    open static func spin(style: UIActivityIndicatorViewStyle = style, backgroundColor: UIColor = backgroundColor, touchHandler: (() -> Void)? = nil) {
         if spinnerView == nil,
             let window = UIApplication.shared.keyWindow {
             let frame = UIScreen.main.bounds
@@ -24,9 +26,21 @@ open class LLSpinner {
             window.addSubview(spinnerView!)
             spinnerView!.startAnimating()
         }
+        
+        if touchHandler != nil {
+            self.touchHandler = touchHandler
+            let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(runTouchHandler))
+            spinnerView!.addGestureRecognizer(tapGestureRecognizer)
+        }
     }
     
-    static func stop() {
+    @objc internal static func runTouchHandler() {
+        if touchHandler != nil {
+            touchHandler!()
+        }
+    }
+    
+    open static func stop() {
         if let _ = spinnerView {
             spinnerView!.stopAnimating()
             spinnerView!.removeFromSuperview()
