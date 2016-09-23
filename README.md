@@ -58,11 +58,11 @@ To install add the following line to your Podfile:
 
     pod 'LLSpinner'
 
-#### Carthage
+### Carthage
 Add the following line to your Cartfile:
 
     github "alaphao/LLSpinner"
    
-#### Manually
+### Manually
 Download and drop ```LLSpinner.swift``` in your project.
 
