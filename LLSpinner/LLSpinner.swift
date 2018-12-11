@@ -11,18 +11,18 @@ import UIKit
 open class LLSpinner {
     internal static var spinnerView: UIActivityIndicatorView?
     
-    open static var style: UIActivityIndicatorViewStyle = .white
-    open static var backgroundColor: UIColor = UIColor(white: 0, alpha: 0.6)
+    public static var style: UIActivityIndicatorView.Style = .white
+    public static var backgroundColor: UIColor = UIColor(white: 0, alpha: 0.6)
     
     internal static var touchHandler: (() -> Void)?
     
-    open static func spin(style: UIActivityIndicatorViewStyle = style, backgroundColor: UIColor = backgroundColor, touchHandler: (() -> Void)? = nil) {
+    public static func spin(style: UIActivityIndicatorView.Style = style, backgroundColor: UIColor = backgroundColor, touchHandler: (() -> Void)? = nil) {
         if spinnerView == nil,
             let window = UIApplication.shared.keyWindow {
             let frame = UIScreen.main.bounds
             spinnerView = UIActivityIndicatorView(frame: frame)
             spinnerView!.backgroundColor = backgroundColor
-            spinnerView!.activityIndicatorViewStyle = style
+            spinnerView!.style = style
             window.addSubview(spinnerView!)
             spinnerView!.startAnimating()
         }
@@ -40,7 +40,7 @@ open class LLSpinner {
         }
     }
     
-    open static func stop() {
+    public static func stop() {
         if let _ = spinnerView {
             spinnerView!.stopAnimating()
             spinnerView!.removeFromSuperview()
