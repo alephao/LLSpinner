@@ -8,12 +8,11 @@
 
 Pod::Spec.new do |s|
   s.name         = "LLSpinner"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "Simple and easy to use full screen activity indicator written in Swift"
   s.homepage     = "https://github.com/alaphao/LLSpinner"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   s.license      = { :type => "MIT", :file => "LICENCE" }
-  s.author    = "Aleph Retamal"
+  s.author       = "Aleph Retamal"
   s.platform     = :ios
   s.ios.deployment_target = '8.0'
   s.source       = { :git => "https://github.com/alaphao/LLSpinner.git", :tag => "#{s.version}" }
