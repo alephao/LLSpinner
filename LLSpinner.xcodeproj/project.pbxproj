@@ -151,12 +151,12 @@
 				TargetAttributes = {
 					8644541E1D93BBD8009F5A3F = {
 						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1200;
 						ProvisioningStyle = Automatic;
 					};
 					864454271D93BBD8009F5A3F = {
 						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1200;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -166,6 +166,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 864454151D93BBD8009F5A3F;
@@ -359,7 +360,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -380,7 +381,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -393,7 +394,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lalafon.LLSpinnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -406,7 +407,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lalafon.LLSpinnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
